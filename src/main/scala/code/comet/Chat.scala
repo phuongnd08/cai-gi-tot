@@ -3,6 +3,7 @@ package code.comet
 import net.liftweb._
 import http._
 import actor._
+import scala.xml.NodeSeq
 
 object ChatServer extends LiftActor with ListenerManager {
 
